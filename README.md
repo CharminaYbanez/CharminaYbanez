@@ -30,9 +30,8 @@ LinkedIn
 
 Analytics Portfolio
 
-## 📚 Currently Learning
+## 🚧 Currently Building
 
-- Advanced Python
-- Tableau
-- Business Intelligence
-- Dashboard Design
+- Google Data Analytics Capstone
+- Business Analytics Portfolio
+- End-to-end case studies in Python, R, SQL, Tableau, and Looker Studio
