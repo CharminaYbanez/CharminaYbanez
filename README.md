@@ -1,83 +1,79 @@
 # Hi, I'm Charmina 👋
 
-Data Analyst with a background in Economics, business operations, and sales. I enjoy solving real-world business problems using data, analytics, visualization, and clear stakeholder-focused communication.
+Economics-trained data analyst with a professional background in life insurance, sales, business operations, and customer service. I use SQL, Python, Power BI, Tableau, and Excel to validate data, analyze business questions, build dashboards, and communicate findings clearly to nontechnical audiences.
 
-I am building an analytics portfolio focused on SQL, Python, Power BI, and end-to-end case studies.
-
----
-
-## 🛠 Tech Stack
-
-**Languages & Querying**  
-SQL • Python • R • Markdown
-
-**Data Analysis**  
-pandas • NumPy • data cleaning • data validation • trend analysis • benchmark comparison
-
-**Visualization & BI**  
-Power BI • Tableau • Looker Studio • Excel • Matplotlib • Seaborn
-
-**Workflow**  
-JupyterLab • SQLite • GitHub • documentation • dashboard storytelling
+My portfolio emphasizes stakeholder framing, reproducible workflows, data-quality checks, and careful interpretation without unsupported causal claims.
 
 ---
 
-## 📂 Featured Project
+## 🛠 Core Analytics Stack
 
-### 📊 Alberta Home Insurance Premium Pressure Monitor  
-**Tools:** SQL • SQLite • Python • pandas • Power BI • JupyterLab  
-**Focus:** Insurance affordability, CPI trend analysis, public policy analytics  
+**Analysis & Querying**  
+SQL • SQLite • Python • pandas • NumPy • Excel
 
-This end-to-end analytics capstone analyzes Alberta home insurance CPI growth from 2016 to 2025 relative to general inflation, Canada-wide home insurance trends, residential construction-cost context, curated catastrophe events, and an auto insurance CPI sensitivity check.
+**Business Intelligence & Visualization**  
+Power BI • Tableau • Matplotlib • Seaborn
 
-The project was designed for a provincial public policy / insurance affordability analyst.
-
-**Main decision question:**  
-> Is Alberta home insurance premium growth unusual enough to warrant deeper affordability, market, or catastrophe-risk review?
-
-**Highlights:**
-
-- Built a lightweight SQLite warehouse with a date dimension and fact tables
-- Performed SQL quality checks and created analytical views
-- Used Python to calculate benchmark divergence and cumulative growth
-- Built a two-page Power BI dashboard
-- Created a final report, presentation deck, dashboard screenshots, and demo video
-- Documented limitations to avoid causal overclaiming
-
-**Main finding:**  
-From 2016 to 2025, Alberta home insurance CPI increased by approximately **74.6%**, compared with **27.4%** for Alberta all-items CPI and **64.5%** for Canada home insurance CPI.
-
-The dashboard is designed as a **review-trigger tool**, not a causal proof model.
-
-🔗 **Project Repository:** [Analytics Portfolio](https://github.com/CharminaYbanez/AnalyticsPortfolio)
+**Workflow & Communication**  
+JupyterLab • Git • GitHub • Markdown • data validation • documentation • dashboard storytelling
 
 ---
 
-## 📈 Analytics Workflow
+## 📂 Featured Analytics Projects
 
-My projects follow a structured process:
+### 🏠 Alberta Home Insurance Premium Pressure Monitor · 2026
 
-1. Business problem  
-2. Stakeholder and decision question  
-3. Data assessment  
-4. Data cleaning and validation  
-5. SQL modeling or transformation  
-6. Python analysis  
-7. Visualization and dashboard design  
-8. Key findings  
-9. Limitations and caveats  
-10. Recommendations and future work  
-11. Portfolio packaging  
+**Tools:** SQL • SQLite • Python • pandas • Power BI  
+**Focus:** Insurance price pressure • benchmark divergence • public-policy monitoring
+
+Built an end-to-end monitoring project using 2016–2025 data to assess whether Alberta home-insurance CPI growth diverged from provincial inflation and the Canadian home-insurance trend. The workflow includes a SQLite warehouse, SQL quality checks, Python analysis, and a two-page Power BI dashboard.
+
+From 2016 to 2025, Alberta home-insurance CPI increased approximately **74.6%**, compared with **27.4%** for Alberta all-items CPI and **64.5%** for Canada home-insurance CPI. The result is presented as a review signal, not a causal conclusion or direct measure of household affordability.
+
+🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/alberta-home-insurance)
+
+### 📈 Superstore Commercial Profitability Review · 2026
+
+**Tools:** SQL • SQLite • Python • pandas • Tableau Public  
+**Focus:** Product mix • discount tiers • regional profitability • commercial review
+
+Analyzed the fictitious Tableau Sample Superstore dataset to identify where sales volume did not translate into proportional profit across product mix, discount tiers, customers, and regions. Findings are observational portfolio insights rather than real-company conclusions.
+
+🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/superstore-commercial-analytics)  
+📊 [Open the Tableau dashboard](https://public.tableau.com/views/SuperstoreCommercialProfitabilityReview/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+
+### 🏥 Healthcare Operations Analytics — ED Throughput Benchmarking · 2026
+
+**Tools:** SQL • SQLite • Python • pandas • Matplotlib • Seaborn  
+**Focus:** Healthcare operations • ED throughput • peer benchmarking • operational screening
+
+Used CMS hospital public-reporting data and ED-volume peer benchmarks to identify hospitals that may warrant further operational review. Review-priority flags are screening indicators—not hospital rankings or causal diagnoses.
+
+🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/healthcare-operations-cms)
 
 ---
 
-## 🌱 Currently Building
+## 🔎 Analytical Approach
 
-- End-to-end data analytics case studies
-- SQL, Python, and Power BI portfolio projects
-- Business intelligence dashboards
-- Stakeholder-focused analytics communication
-- Job-ready project presentations
+1. Define the stakeholder and decision question
+2. Confirm the source, grain, keys, coverage, and missingness
+3. Validate transformations and joins before analysis
+4. Build reproducible SQL and Python workflows
+5. Separate evidence, interpretation, recommendations, and limitations
+6. Communicate results through decision-focused dashboards and documentation
+
+---
+
+## 🎓 Credentials
+
+- [Google Data Analytics Professional Certificate](https://coursera.org/share/64ae22bcd524d39396ef66f536117ec4)
+- [Microsoft DAT206x: Analyzing and Visualizing Data with Excel](https://courses.edx.org/certificates/c7213b9943e4482888e5cecf68799228)
+
+---
+
+## 🚧 Current Focus
+
+**Olist Marketplace Operations** — a senior-level marketplace analytics project focused on multi-table modeling, delivery performance, seller operations, customer reviews, and executive BI.
 
 ---
 
@@ -85,8 +81,9 @@ My projects follow a structured process:
 
 - **Portfolio Website:** https://charminaybanez.github.io/
 - **Analytics Portfolio:** https://github.com/CharminaYbanez/AnalyticsPortfolio
-- **LinkedIn:** https://www.linkedin.com/in/charminaybanez
+- **Tableau Public:** [Superstore Commercial Profitability Review](https://public.tableau.com/views/SuperstoreCommercialProfitabilityReview/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+- **LinkedIn:** https://www.linkedin.com/in/charminaybanez/
 
 ---
 
-Thanks for visiting my GitHub profile. I use this space to document my growth as a data analyst and to share projects that demonstrate both technical skills and analytical thinking.
+Thanks for visiting. I use this profile to document analytics projects that combine technical execution with practical business reasoning.
