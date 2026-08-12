@@ -2,7 +2,7 @@
 
 Economics-trained data analyst with a professional background in life insurance, sales, business operations, and customer service. I use SQL, Python, Power BI, Tableau, and Excel to validate data, analyze business questions, build dashboards, and communicate findings clearly to nontechnical audiences.
 
-My portfolio emphasizes stakeholder framing, reproducible workflows, data-quality checks, and careful interpretation without unsupported causal claims.
+My portfolio emphasizes stakeholder framing, reproducible workflows, data-quality checks, appropriate analytical grain, and careful interpretation without unsupported causal claims.
 
 ---
 
@@ -12,7 +12,7 @@ My portfolio emphasizes stakeholder framing, reproducible workflows, data-qualit
 SQL • SQLite • Python • pandas • NumPy • Excel
 
 **Business Intelligence & Visualization**  
-Power BI • Tableau • Matplotlib • Seaborn
+Power BI • DAX • Tableau • Matplotlib • Seaborn
 
 **Workflow & Communication**  
 JupyterLab • Git • GitHub • Markdown • data validation • documentation • dashboard storytelling
@@ -28,28 +28,45 @@ JupyterLab • Git • GitHub • Markdown • data validation • documentation
 
 Built an end-to-end monitoring project using 2016–2025 data to assess whether Alberta home-insurance CPI growth diverged from provincial inflation and the Canadian home-insurance trend. The workflow includes a SQLite warehouse, SQL quality checks, Python analysis, and a two-page Power BI dashboard.
 
-From 2016 to 2025, Alberta home-insurance CPI increased approximately **74.6%**, compared with **27.4%** for Alberta all-items CPI and **64.5%** for Canada home-insurance CPI. The result is presented as a review signal, not a causal conclusion or direct measure of household affordability.
+From 2016 to 2025, Alberta home-insurance CPI increased approximately **74.6%**, compared with **27.4%** for Alberta all-items CPI and **64.5%** for Canada home-insurance CPI. The result is presented as a review signal—not a causal conclusion or direct measure of household affordability.
 
 🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/alberta-home-insurance)
 
-### 📈 Superstore Commercial Profitability Review · 2026
+### 📦 Olist Marketplace Delivery and Seller Analytics · 2026
 
-**Tools:** SQL • SQLite • Python • pandas • Tableau Public  
-**Focus:** Product mix • discount tiers • regional profitability • commercial review
+**Tools:** SQL • SQLite • Python • pandas • Power BI • DAX  
+**Focus:** Delivery reliability • seller exposure • analytical grain • marketplace operations
 
-Analyzed the fictitious Tableau Sample Superstore dataset to identify where sales volume did not translate into proportional profit across product mix, discount tiers, customers, and regions. Findings are observational portfolio insights rather than real-company conclusions.
+Built a senior-style marketplace operations project using a multi-table Brazilian e-commerce dataset. The workflow validates source keys, pre-aggregates one-to-many tables, and creates separate order- and item-grain analytical tables to prevent row multiplication.
 
-🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/superstore-commercial-analytics)  
-📊 [Open the Tableau dashboard](https://public.tableau.com/views/SuperstoreCommercialProfitabilityReview/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
+The analysis examines delivery reliability, fulfillment-stage exposure, seller and geographic prioritization, and item-weighted associations between delivery outcomes and customer reviews. Findings support operational screening and investigation without assigning unsupported causal responsibility to sellers, carriers, or delivery timing.
+
+🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/olist-marketplace-analytics)  
+📊 [View dashboard PDF](https://github.com/CharminaYbanez/AnalyticsPortfolio/blob/main/olist-marketplace-analytics/outputs/powerbi/olist_marketplace_dashboard.pdf)  
+🎥 [Watch dashboard demonstration](https://github.com/CharminaYbanez/AnalyticsPortfolio/raw/main/olist-marketplace-analytics/outputs/demo/olist_marketplace_dashboard_demo.mp4)
 
 ### 🏥 Healthcare Operations Analytics — ED Throughput Benchmarking · 2026
 
 **Tools:** SQL • SQLite • Python • pandas • Matplotlib • Seaborn  
 **Focus:** Healthcare operations • ED throughput • peer benchmarking • operational screening
 
-Used CMS hospital public-reporting data and ED-volume peer benchmarks to identify hospitals that may warrant further operational review. Review-priority flags are screening indicators—not hospital rankings or causal diagnoses.
+Used CMS hospital public-reporting data and emergency-department volume peer benchmarks to identify hospitals that may warrant further operational review. The workflow includes SQL validation, a typed hospital-level analytical mart, missingness handling, percentile benchmarking, and stakeholder-focused recommendations.
+
+Review-priority flags are operational screening indicators—not hospital rankings or causal diagnoses.
 
 🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/healthcare-operations-cms)
+
+### 📈 Superstore Commercial Profitability Review · 2026
+
+**Tools:** SQL • SQLite • Python • pandas • Tableau Public  
+**Focus:** Product mix • discount tiers • regional profitability • commercial review
+
+Analyzed the fictitious Tableau Sample Superstore dataset to identify where sales volume did not translate into proportional profit across product mix, discount tiers, customers, and regions.
+
+The analysis identifies commercial review signals and observed profitability associations. Because this is a sample dataset, the findings are portfolio demonstrations rather than conclusions about a real company, and they do not establish that discounts caused losses.
+
+🔗 [View project repository](https://github.com/CharminaYbanez/AnalyticsPortfolio/tree/main/superstore-commercial-analytics)  
+📊 [Open the Tableau dashboard](https://public.tableau.com/views/SuperstoreCommercialProfitabilityReview/Dashboard?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 ---
 
@@ -71,12 +88,6 @@ Used CMS hospital public-reporting data and ED-volume peer benchmarks to identif
 
 ---
 
-## 🚧 Current Focus
-
-**Olist Marketplace Operations** — a senior-level marketplace analytics project focused on multi-table modeling, delivery performance, seller operations, customer reviews, and executive BI.
-
----
-
 ## 🌐 Connect
 
 - **Portfolio Website:** https://charminaybanez.github.io/
@@ -86,4 +97,4 @@ Used CMS hospital public-reporting data and ED-volume peer benchmarks to identif
 
 ---
 
-Thanks for visiting. I use this profile to document analytics projects that combine technical execution with practical business reasoning.
+Thanks for visiting. I use this profile to document analytics projects that combine technical execution, data-quality discipline, and practical decision context.
